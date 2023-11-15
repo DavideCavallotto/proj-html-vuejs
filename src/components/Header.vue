@@ -1,5 +1,6 @@
 <script>
 import {store} from '../store'
+import HeaderSearchBar from '../components/HeaderSearchBar.vue'
 export default {
     data() {
         return {
@@ -11,7 +12,7 @@ export default {
         
     },
     components: {
-        
+        HeaderSearchBar
     },
     computed: {
 
@@ -39,7 +40,7 @@ export default {
 
         </ul>
         <ul class="socials">
-            <li v-for="item in store.icons" :key="item">
+            <li class="social-icons" v-for="item in store.icons" :key="item">
                 <a href="#"><font-awesome-icon :icon="item" /></a>                
             </li>
         </ul>
@@ -47,6 +48,7 @@ export default {
     </div>
 
   </div>
+  <HeaderSearchBar/>
 </template>
 
 <style lang="scss" scoped>

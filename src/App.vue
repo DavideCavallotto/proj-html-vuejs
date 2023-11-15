@@ -1,4 +1,5 @@
 <script>
+import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 
 export default {
@@ -11,7 +12,8 @@ export default {
         
     },
     components: {
-        Main
+      Header,
+      Main
     },
     computed: {
 
@@ -21,12 +23,15 @@ export default {
 </script>
 
 <template>
-  <Main/>
+  <Header/>
+  <Main/>   
+  
 </template>
 
 <style lang="scss">
 @use './style/general.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
 
 
 </style>

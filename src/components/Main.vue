@@ -1,5 +1,5 @@
 <script>
-import Header from './Header.vue'
+
 
 export default {
     data() {
@@ -11,7 +11,7 @@ export default {
         
     },
     components: {
-        Header
+        
     },
     computed: {
 
@@ -22,7 +22,7 @@ export default {
 
 <template>
     <div>
-        <Header/>
+        
 
     </div>
   
