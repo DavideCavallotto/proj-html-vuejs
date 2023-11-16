@@ -255,7 +255,26 @@ export const store = reactive({
             badge: '',
             featured: '',
         },
-    ]
+    ],
+
+    dates: [
+        {
+            value: '2000',
+            type: 'Students'
+        },
+        {
+            value: '950',
+            type: 'Courses'
+        },
+        {
+            value: '1600',
+            type: 'Hours Video'
+        },
+        {
+            value: '150',
+            type: 'Countries Reached'
+        },
+    ],
 
 	
 })

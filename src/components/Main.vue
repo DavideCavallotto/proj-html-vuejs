@@ -5,6 +5,7 @@ import { store } from '../store';
 import MainHero from './MainHero.vue';
 import MainInformation from './MainInformation.vue';
 import RecentCourses from './RecentCourses.vue';
+import Dates from './Dates.vue';
 
 
 
@@ -24,7 +25,8 @@ export default {
     Courses,
     MainHero,
     MainInformation,
-    RecentCourses
+    RecentCourses,
+    Dates
     
     },
     
@@ -41,6 +43,7 @@ export default {
     <Courses/> 
     <MainInformation/>
     <RecentCourses/>
+    <Dates/>
 
       
 

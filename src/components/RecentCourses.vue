@@ -50,12 +50,9 @@ export default {
 
         </div>
 
+        <Button v-text="textButton"/>
     </div>       
-</div>
-
-
-
-  
+</div>  
 
 
 </template>
