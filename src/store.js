@@ -97,8 +97,6 @@ export const store = reactive({
             course: 'Photography',
             counter: '4'
         }
-    ],
-
-         
+    ],         
 	
 })
