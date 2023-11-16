@@ -64,6 +64,7 @@ export default {
 
 .navigation {
     display: flex;
+    justify-content: center;
     padding: 20px 100px; 
     gap: 30px;
     font-size: 12px;

@@ -1,10 +1,12 @@
 <script>
 import Button from './Button.vue';
+import { store } from '../store';
 
 export default {
     data() {
         return {
-            textButton:'JOIN FOR FREE'
+            textButton:'JOIN FOR FREE',
+            store: store,
         }
     },
     methods: {
@@ -15,6 +17,9 @@ export default {
     },
     computed: {
 
+    },
+    props: {
+        
     }
 }
 
@@ -31,7 +36,7 @@ export default {
                 <Button v-text="textButton"/>
             </div>
             <div class="col-6 screen">
-                <img src="public/images/base.png" alt="">
+                <img src="/images/base.png" alt="">
             </div>
 
         </div>

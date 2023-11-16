@@ -47,8 +47,10 @@ export default {
 
     </div>
 
-  </div>
-  <HeaderSearchBar/>
+  </div>  
+<HeaderSearchBar/>
+
+  
 </template>
 
 <style lang="scss" scoped>

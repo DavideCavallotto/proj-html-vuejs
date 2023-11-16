@@ -1,20 +1,23 @@
 <script>
-import Hero from './Hero.vue';
 import Advantages from './Advantages.vue';
+import Courses from './Courses.vue';
+import { store } from '../store';
+import MainHero from './MainHero.vue';
 
 export default {
     data() {
         return {
-
+            store: store,
         }
     },
     methods: {
         
     },
-    components: {
-        Hero,
-        Advantages
-    },
+    components: {    
+    Advantages,
+    Courses,
+    MainHero
+},
     computed: {
 
     }
@@ -23,10 +26,9 @@ export default {
 </script>
 
 <template>
-    <Hero/>
+    <MainHero :item="store.heroComp"/>
     <Advantages/>
-  
-
+    <Courses/> 
 
 </template>
 

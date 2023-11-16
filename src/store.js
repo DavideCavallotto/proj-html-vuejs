@@ -79,7 +79,26 @@ export const store = reactive({
             title: 'Graduate in as little as 1 Year',
             text: 'Online post-graduate certificates are a popular way to develop your professional qualifications of Masterstudy'
         },
-    ]
+    ],   
+
+    numberCourses: [        
+        {
+            img: 'public/images/cat_5-370x155.jpg',
+            course: 'Music',
+            counter: '5'
+        },
+        {
+            img: 'public/images/cat_4-370x155.jpg',
+            course: 'Exercise',
+            counter: '7'
+        },
+        {
+            img: 'public/images/cat_6-370x155.jpg',
+            course: 'Photography',
+            counter: '4'
+        }
+    ],
+
          
 	
 })
