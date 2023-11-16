@@ -1,5 +1,6 @@
 <script>
-
+import Hero from './Hero.vue';
+import Advantages from './Advantages.vue';
 
 export default {
     data() {
@@ -11,7 +12,8 @@ export default {
         
     },
     components: {
-        
+        Hero,
+        Advantages
     },
     computed: {
 
@@ -21,10 +23,8 @@ export default {
 </script>
 
 <template>
-    <div>
-        
-
-    </div>
+    <Hero/>
+    <Advantages/>
   
 
 

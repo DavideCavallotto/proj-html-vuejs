@@ -72,6 +72,7 @@ export default {
     .nav-courses {
         .search-courses {
             
+            
             p {
                 margin: 0 10px 0 3px;
                 font-weight: bold;
@@ -83,7 +84,8 @@ export default {
                 background-color: $pj_color_blue;
                 color: white;
                 padding: 15px 25px;
-                cursor: pointer;
+                cursor: pointer;                
+                
             }
         }
         

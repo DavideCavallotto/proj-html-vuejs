@@ -21,3 +21,44 @@ a {
     text-decoration: none;
 }
 
+.col-3 {
+    flex-basis: calc((100% * 3) / 12 );
+}
+
+.col-4 {
+    flex-basis: calc((100% * 4) / 12 );
+}
+
+.col-6 {
+    flex-basis: calc((100% * 6) / 12 );
+}
+
+.col-8 {
+    flex-basis: calc((100% * 8) / 12 );
+}
+
+
+.container-small {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.container-medium {
+    padding-top: 50px;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.container-large {
+    width: 1024px;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
