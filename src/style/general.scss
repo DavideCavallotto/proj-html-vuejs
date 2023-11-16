@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+.col-2 {
+    flex-basis: calc((100% * 2) / 12 );
+}
+
 .col-3 {
     flex-basis: calc((100% * 3) / 12 );
 }
@@ -54,7 +58,9 @@ a {
 }
 
 .container-large {
+    padding-top: 50px;
     width: 1024px;
+    margin: 0 auto;
 }
 
 .container-fluid {

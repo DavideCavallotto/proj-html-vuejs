@@ -51,6 +51,7 @@ export default {
 
 <style lang="scss" scoped>
 .container-color {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     background-image: url(public/images/Untitled-1-1-1-1-1.png);

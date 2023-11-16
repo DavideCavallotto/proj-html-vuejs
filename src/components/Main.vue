@@ -4,13 +4,17 @@ import Courses from './Courses.vue';
 import { store } from '../store';
 import MainHero from './MainHero.vue';
 import MainInformation from './MainInformation.vue';
+import RecentCourses from './RecentCourses.vue';
+
 
 
 export default {
     data() {
         return {
-            store: store,            
-        }
+                        
+        store: store,        
+           
+        }   
     },
     methods: {
         
@@ -19,10 +23,13 @@ export default {
     Advantages,
     Courses,
     MainHero,
-    MainInformation
-},
-    computed: {
-
+    MainInformation,
+    RecentCourses
+    
+    },
+    
+    mounted () {
+        console.log(this.categories)
     }
 }
 
@@ -33,6 +40,7 @@ export default {
     <Advantages/>
     <Courses/> 
     <MainInformation/>
+    <RecentCourses/>
 
       
 
