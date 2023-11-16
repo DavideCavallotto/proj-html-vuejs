@@ -6,6 +6,8 @@ import MainHero from './MainHero.vue';
 import MainInformation from './MainInformation.vue';
 import RecentCourses from './RecentCourses.vue';
 import Dates from './Dates.vue';
+import Subscribe from './Subscribe.vue';
+
 
 
 
@@ -26,7 +28,8 @@ export default {
     MainHero,
     MainInformation,
     RecentCourses,
-    Dates
+    Dates,
+    Subscribe
     
     },
     
@@ -44,6 +47,8 @@ export default {
     <MainInformation/>
     <RecentCourses/>
     <Dates/>
+    <Subscribe/>
+    
 
       
 
