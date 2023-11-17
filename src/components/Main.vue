@@ -7,6 +7,7 @@ import MainInformation from './MainInformation.vue';
 import RecentCourses from './RecentCourses.vue';
 import Dates from './Dates.vue';
 import Subscribe from './Subscribe.vue';
+import CarouselContainer from './CarouselContainer.vue';
 
 
 
@@ -29,13 +30,11 @@ export default {
     MainInformation,
     RecentCourses,
     Dates,
-    Subscribe
+    Subscribe,
+    CarouselContainer
     
     },
-    
-    mounted () {
-        console.log(this.categories)
-    }
+  
 }
 
 </script>
@@ -48,6 +47,7 @@ export default {
     <RecentCourses/>
     <Dates/>
     <Subscribe/>
+    <CarouselContainer/>
     
 
       

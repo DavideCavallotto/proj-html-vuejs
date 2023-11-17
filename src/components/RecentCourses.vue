@@ -21,12 +21,7 @@ export default {
     computed: {
 
     },
-    props: {
-        itemCat: Array,        
-    },
-    mounted() {
-        console.log(this.itemCat)
-    }
+   
 
 }
 
