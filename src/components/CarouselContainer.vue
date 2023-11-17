@@ -24,7 +24,7 @@ export default {
 </script>
 
 <template>
-    <div class="container-medium">        
+    <div class="container-fluid">        
         <h1>Popular Courses</h1>
         <p>Discover our most popular courses for self learning</p>
     </div>
@@ -36,8 +36,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.container-medium {
+.container-fluid {
     text-align: center;
+    background-color: #F0F4FA;
 
     h1 {
         font-size: 38px;

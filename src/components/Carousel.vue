@@ -75,6 +75,7 @@ export default {
 
 .container-fluid {
     padding: 50px;
+    background-color: #F0F4FA;
     .col-2 {
         padding: 0 10px 30px;               
     }

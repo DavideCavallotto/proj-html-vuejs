@@ -276,5 +276,20 @@ export const store = reactive({
         },
     ],
 
+    business: [
+        {
+            img: 'public/images/image_box_1-221x231.png',
+            title: 'Become an Instructor',
+            text: 'Teach what you love, Masterstudy gives you the tools to create a course.',
+            textBtn: 'START TEACHING',
+        },
+        {
+            img: 'public/images/image_box_2-234x231.png',
+            title: 'Setup for Business',
+            text: 'Get unlimited access to 2.500 of Udemy\'s top courses for your team.',
+            textBtn: 'DOING BUSINESS',
+        },
+    ]
+
 	
 })

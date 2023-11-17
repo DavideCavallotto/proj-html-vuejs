@@ -8,6 +8,7 @@ import RecentCourses from './RecentCourses.vue';
 import Dates from './Dates.vue';
 import Subscribe from './Subscribe.vue';
 import CarouselContainer from './CarouselContainer.vue';
+import Business from './Business.vue';
 
 
 
@@ -31,7 +32,8 @@ export default {
     RecentCourses,
     Dates,
     Subscribe,
-    CarouselContainer
+    CarouselContainer,
+    Business
     
     },
   
@@ -48,6 +50,7 @@ export default {
     <Dates/>
     <Subscribe/>
     <CarouselContainer/>
+    <Business/>
     
 
       
