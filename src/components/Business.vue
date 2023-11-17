@@ -43,11 +43,7 @@ export default {
             
             
         </div>
-    </div>
-
-  
-    <Carousel/>  
-     
+    </div>     
 
 </template>
 

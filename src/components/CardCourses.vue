@@ -50,6 +50,7 @@ export default {
 @use '../style/variables' as *;
 
 .card {    
+    background-color: white;
     border: 1px solid #E8E8E8;
     height: 100%;
     cursor: pointer;

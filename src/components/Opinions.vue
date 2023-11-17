@@ -46,9 +46,7 @@ export default {
 
         </div>
     </div>
-
-
-    <Carousel />
+  
 </template>
 
 <style lang="scss" scoped>

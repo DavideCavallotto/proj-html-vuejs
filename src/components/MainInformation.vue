@@ -28,7 +28,7 @@ export default {
 </script>
 
 <template>
-    <div class="container-color">
+    <div class="container-fluid">
         <div class="container-medium">
             <div class="row">
                 <div class="col-4">
@@ -50,12 +50,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.container-color {
-    margin-top: 50px;
+.container-fluid {    
     display: flex;
     justify-content: center;
     background-image: url(public/images/Untitled-1-1-1-1-1.png);
-    padding: 50px 0 200px;
+    
     
 }
 

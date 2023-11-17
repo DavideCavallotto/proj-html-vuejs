@@ -45,8 +45,7 @@ export default {
 <style lang="scss" scoped>
 @use '../style/variables' as*;
 
-.container-fluid {
-    padding: 0 0 50px;
+.container-fluid {   
     background-color: $pj_color_green;
 
     button {

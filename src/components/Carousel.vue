@@ -73,8 +73,7 @@ export default {
 <style lang="scss" scoped>
 @use '../style/variables' as *;
 
-.container-fluid {
-    padding: 50px;
+.container-fluid {    
     background-color: #F0F4FA;
     .col-2 {
         padding: 0 10px 30px;               

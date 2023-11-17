@@ -36,17 +36,18 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.container-fluid {
-    text-align: center;
+.container-fluid {    
     background-color: #F0F4FA;
 
-    h1 {
+    h1 { 
+        text-align: center;
         font-size: 38px;
         font-weight: 300;
         margin-bottom: 20px;
     }
 
     p {
+        text-align: center;
         font-weight: 300;
         color: gray;
     }

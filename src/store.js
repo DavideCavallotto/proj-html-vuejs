@@ -1,7 +1,7 @@
 import { reactive } from 'vue'
 
 
-export const store = reactive({	    
+export const store = reactive({
     languages: [
         {
             language: "English",
@@ -20,39 +20,39 @@ export const store = reactive({
             value: "de"
         }
     ],
-    
+
     typeCourses: [
         {
-            text:'Courses',
+            text: 'Courses',
             news: false
         },
         {
-            text:'Zoom',
+            text: 'Zoom',
             news: true
         },
         {
-            text:'Pages',
+            text: 'Pages',
             news: false
         },
         {
-            text:'Bundles',
+            text: 'Bundles',
             news: false
         },
         {
-            text:'Course Formats',
+            text: 'Course Formats',
             news: false
         },
         {
-            text:'Add Course',
+            text: 'Add Course',
             news: true
         },
         {
-            text:'Demos',
+            text: 'Demos',
             news: false
         }
     ],
 
-    icons: [        
+    icons: [
         'fab fa-twitter',
         'fab fa-instagram',
         'fab fa-behance',
@@ -79,9 +79,9 @@ export const store = reactive({
             title: 'Graduate in as little as 1 Year',
             text: 'Online post-graduate certificates are a popular way to develop your professional qualifications of Masterstudy'
         },
-    ],   
+    ],
 
-    numberCourses: [        
+    numberCourses: [
         {
             img: 'public/images/cat_5-370x155.jpg',
             course: 'Music',
@@ -97,18 +97,18 @@ export const store = reactive({
             course: 'Photography',
             counter: '4'
         }
-    ],   
-    
-    categories: 
-    [
-        'All Categories',
-        'Art',
-        'Exercise',
-        'Material Design',
-        'Music',
-        'Photography',
-        'Software Development'
     ],
+
+    categories:
+        [
+            'All Categories',
+            'Art',
+            'Exercise',
+            'Material Design',
+            'Music',
+            'Photography',
+            'Software Development'
+        ],
 
     cards: [
         {
@@ -184,7 +184,7 @@ export const store = reactive({
             featured: '',
         },
         {
-            img:'public/images/photo-1475452779376-caebfb988090-272x161.jpeg',
+            img: 'public/images/photo-1475452779376-caebfb988090-272x161.jpeg',
             type: 'Bicycling',
             text: 'Road Bike Manual or How to Be a Champion',
             icon: 'fa-regular fa-clock',
@@ -196,7 +196,7 @@ export const store = reactive({
             featured: '',
         },
         {
-            img:'public/images/cristian-grecu-762012-unsplash-min-scaled-272x161.jpg',
+            img: 'public/images/cristian-grecu-762012-unsplash-min-scaled-272x161.jpg',
             type: 'Documentary',
             text: 'How to Make Beautiful Landscape photos',
             icon: 'fa-regular fa-clock',
@@ -244,7 +244,7 @@ export const store = reactive({
             featured: '',
         },
         {
-            img:'public/images/promo_tf-272x161.jpg',
+            img: 'public/images/promo_tf-272x161.jpg',
             type: 'Software Development',
             text: 'Masterstudy Mobile LMS App',
             icon: 'fa-regular fa-clock',
@@ -289,7 +289,63 @@ export const store = reactive({
             text: 'Get unlimited access to 2.500 of Udemy\'s top courses for your team.',
             textBtn: 'DOING BUSINESS',
         },
-    ]
+    ],
 
-	
+    iconFooter: [
+        'fa-brands fa-facebook',
+        'fa-brands fa-twitter',
+        'fa-brands fa-instagram'
+    ],
+
+    contactFooter: [
+        {
+            title: 'Contact',
+            address: 'USA, California 20, First Avenue,',
+            city: 'California',
+            tel: 'Tel.: +39 324 212 321 32',
+            fax: 'Fax: +39 324 212 321 32',
+            mail: 'info@masterstudy.com'
+
+        }
+    ],
+
+    pagesFooter: {
+        title: 'Pages',
+        page:
+            [
+                'Blog',
+                'Home',
+                'Shortcodes',
+                'Courses',
+                'Membership',
+                'Typography'
+            ]
+
+    },
+
+    blogFooter: {
+        title: 'Blog',
+
+        firstBlog:[
+            {
+                img: 'public/images/photo-1517520287167-4bbf64a00d66-69x69.jpeg',
+                text: 'Our main target is to "Developing Yourself as a Leader" ',
+                date: 'August 9, 2018',
+            },
+            {
+                img: 'public/images/photo-1490376840453-5f616fbebe5b-69x69.jpeg',
+                text: 'Those other college expenses you aren\'t thinking about',
+                date: 'June 3,2015',
+            }
+        ],
+        
+
+
+
+    }
+
+
+
+
+
 })
