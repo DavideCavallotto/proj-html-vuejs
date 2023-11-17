@@ -53,8 +53,16 @@ export default {
 
 <style lang="scss" scoped>
 @use '../style/variables' as *;
+
+.container-fluid {
+    padding: 50px 0;
+}
 .row {
     justify-content: center;
+
+    .col-4 {
+        flex-basis: 40%
+    }
     .card-container {  
         padding: 20px;  
         .card {
@@ -63,7 +71,7 @@ export default {
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 40px 150px 40px 40px;
+            padding: 50px 0;
             
             .card-text {
                 display: flex;
