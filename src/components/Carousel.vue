@@ -62,8 +62,8 @@ export default {
         
     </div>
     <div class="row">
-        <button @click="prevCard" class="prev">Prev</button>       
-        <button @click="nextCard" class="next">Next</button>
+        <button @click="prevCard" class="prev"><font-awesome-icon icon="fa-solid fa-angle-left" /></button>       
+        <button @click="nextCard" class="next"><font-awesome-icon icon="fa-solid fa-angle-right" /></button>
 
     </div>
 </div>  
@@ -89,9 +89,20 @@ export default {
         gap: 2px;
 
         button {
-            padding: 5px;
+            padding: 10px 15px;
+            background-color: white;
+            border: 1px solid #dcdfe4;
+            color: #dcdfe4;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #457992;
+                color: white;
+            }
         }
     }
+
+    
 
 }
 
