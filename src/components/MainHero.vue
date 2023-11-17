@@ -37,6 +37,10 @@ export default {
             </div>
             <div class="col-6 screen">
                 <img src="/images/base.png" alt="">
+                <span class="books"><img src="public/images/book1.png" alt=""></span>
+                <span class="book"><img src="public/images/book2.png" alt=""></span>
+                <span class="bubble"><img src="public/images/bubblespeech.png" alt=""></span>
+                <span class="magnifier"><img src="public/images/magnifier.png" alt=""></span>
             </div>
 
         </div>
@@ -52,6 +56,39 @@ export default {
 .row {
     align-items: center;
     justify-content: center;
+
+    .screen {
+        
+        position: relative;
+        .book{
+            position: absolute;
+            width: 170px;
+            left: 174px;
+            top: 221px;
+        }
+
+        .books {
+            position: absolute;
+            width: 170px;
+            left: 283px;
+            top: 73px;
+        }
+
+        .bubble {
+            position: absolute;
+            width: 60px;
+            left: 391px;
+            top: 36px;
+        }
+        
+
+        .magnifier{
+            position: absolute;
+            width: 60px;
+            left: 349px;
+            top: 249px;
+        }
+    }
 }
 .col-6 {
     
