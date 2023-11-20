@@ -13,16 +13,33 @@ export default {
     props: {
         card: Object
     },
-    
-}
 
+    methods: {
+        badgeAssignment() {
+
+            if (this.card.badge === 'Hot') {
+
+                return 'b-red';
+
+            } else if (this.card.badge === 'Special') {
+
+                return 'b-yellow';
+
+            } else {
+                
+                return '';
+            }
+        },
+    }
+  
+}
 </script>
 
 <template>
     <div class="card" >
         <div class="card-header">
             <img :src="card.img" alt="">
-            <span class="badge" v-if="card.badge !== ''" :class="card.badge === 'Hot' ? 'b-red' : card.badge === 'Special' ? 'b-yellow' : ''"> {{ card.badge }}</span>
+            <span class="badge" v-if="card.badge !== ''" :class="badgeAssignment()"> {{ card.badge }}</span>
         </div>
         <div class="card-body">
             <p class="tipology">{{ card.type }}</p>
@@ -107,7 +124,7 @@ export default {
         padding: 0 15px 15px; 
         
         .star {
-            font-size: 20px;
+            font-size: 15px;
             color: gold;
         }
         .discount {
